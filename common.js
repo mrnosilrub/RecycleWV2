@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const links = document.querySelectorAll('nav a[href^="#"], nav a[href^="index.html#"]');
   links.forEach(link => {
-    if (link.getAttribute('href').includes('employment')) return;
     link.addEventListener('click', event => {
       const href = link.getAttribute('href');
       // Allow normal navigation when linking to a different page

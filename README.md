@@ -9,8 +9,8 @@ All images and downloadable files referenced by the HTML pages live in the `asse
 The site currently expects the following assets:
 
 - `assets/logo.jpg` – main logo displayed in the navigation bar.
-- `assets/hero.jpg` – hero image used on both pages.
-- `assets/job-application.pdf` – job application download in `employment.html`.
-- `assets/driver-application.pdf` – driver application download in `employment.html`.
+- `assets/hero.jpg` – hero image used on the site.
+- `assets/job-application.pdf` – job application download in the Employment section of `index.html`.
+- `assets/driver-application.pdf` – driver application download in the Employment section of `index.html`.
 
 Ensure any additional images or documents are saved in the `assets/` folder and referenced by their relative path.
