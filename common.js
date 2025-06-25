@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  const links = document.querySelectorAll('nav a[href^="#"], nav a[href^="index.html#"]');
+  const links = document.querySelectorAll(
+    'nav a[href^="#"], nav a[href^="index.html#"], header a[href^="#"]'
+  );
   links.forEach(link => {
     link.addEventListener('click', event => {
       const href = link.getAttribute('href');
