@@ -32,6 +32,3 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-function toggleDropdown() {
-  document.getElementById("dropdownMenu").classList.toggle("hidden");
-}
